@@ -275,4 +275,9 @@ footer {
 img{
     width: 100%;
 }
+.section{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 0;
+}
 }
