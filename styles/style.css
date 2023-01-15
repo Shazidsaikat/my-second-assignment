@@ -255,7 +255,17 @@ footer {
     border-radius: 8px;
     padding-top: 39px;
     padding-bottom: 38px;
-    margin-right: 100px;
+    margin-right: 100px;}
 
-
+/* ----------footer ends here------------ */
+@media only screen and (max-width:576px){
+    nav{
+        display: flex;
+        flex-direction: column;
+       align-items: flex-start;
+       
+    }
+  .brand, .brand-title img{
+    width: 100%;
+  }
 }
