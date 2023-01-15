@@ -1,7 +1,11 @@
 /* font family */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
-*{margin: 0;
-  padding: 0;}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
     margin: 0;
@@ -10,12 +14,12 @@ body {
 
 }
 
-.top{
+.top {
     background: rgba(255, 144, 14, 0.1);
-    width: 1980px;
+    width: 100%;
     height: 1232px;
     padding-top: 50px;
-    
+
 }
 
 
@@ -35,126 +39,223 @@ nav a {
     font-size: 18px;
 }
 
-nav p { 
+nav p {
     margin-right: 450px;
     font-weight: 700;
     font-size: 45px;
     color: #131313;
     margin-right: 500px;
 }
+
 /*----- banner section----- */
-.brand-title{
+.brand {
+    margin-right: 100px;
+}
+
+.brand-title {
     margin-top: 80px;
 }
-.brand-title, p{
+
+.brand-title,
+p {
     text-align: center;
     margin-bottom: 20px;
 
-    
-}
- p{
-    font-weight: 400;
-    font-size: 16px;
-    
-color: #727272;
-}
-   
-button{
-    background:#FF900E;
-    border: none;
-    color:  #ffffff;
-border-radius: 8px;
-width: 131px;
-height: 43px;
-margin-top: 20px;
-margin-bottom: 50px;
-padding: 12px;
+
 }
 
-.brand,.brand-title img{
-    width: 1440px;
-    height: 700px;
+p {
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #727272;
+}
+
+button {
+    background: #FF900E;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    width: 131px;
+    height: 43px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 12px;
+}
+
+.brand,
+.brand-title img {
+
     border-radius: 8px;
     margin-top: 50;
-     margin-left: 240px; 
-    margin-right: 240px;  
+    margin-left: 50px;
     padding-bottom: 50px;
+
 }
+
 /* ------------
 -------feature/body section part-1----- */
 
-.section{
+.section {
     display: flex;
     margin-left: 300px;
-    
+
 }
-    
-.sec-div1{
+
+.sec-div1 {
     margin-top: 100px;
-   
-    
+
+
 }
-.sec-div2{
+
+.sec-div2 {
     justify-content: left;
     margin-top: 370px;
     margin-left: 20px;
     margin-bottom: 20px;
+
 }
-.sec-div3{
+
+.sec-div3 {
     margin-top: 20px;
 }
-.features{
-    color:  #FF900E;;
+
+.features {
+    color: #FF900E;
+    ;
 }
-.list{
+
+.list {
     color: #727272;
 
+
+
 }
-.team-1, .team-2, .team-3, .team-4{
+
+.team-1,
+.team-2,
+.team-3,
+.team-4 {
     padding: 5px;
 }
+
 /*---features section start-----
 ------------------------ */
-.container{
+.container {
     display: flex;
     gap: 200px;
-   
-    
+
+
 }
-.container-div{ 
+
+.container-h {
+    border-left: 3px solid #FF900E;
+    padding-left: 10px;
+}
+
+.container-div {
     margin-top: 100px;
     margin-left: 250px;
-    
+
 }
-.container-sub-1{
+
+.container-sub-1 {
     margin-top: 20px;
     padding: 20px;
-    
-    
-    border-radius: 5px;
-    box-shadow: black;
+    border: 5px solid floralwhite;
+
 }
-.container-img{
+
+.container-img {
     margin-top: 100px;
-    
+
 }
-.container-p{
+
+.container-p {
     font-weight: 400;
     font-size: 16px;
-    
-color: #727272;
-}
-   
-.btn-2{ 
 
-margin-top: 100px;
+    color: #727272;
+}
+
+.btn-2 {
+
+    margin-top: 100px;
     height: 80px;
 }
+
 /* features section end */
 
 /* --------------
 --------3rd/some facts section start-----
 -------------------------------------*/
-.sec2-div{
-   text-align: center;
+
+.section-2 {
+    margin-top: 120px;
+}
+
+
+.sec2-div {
+    text-align: left;
+    margin-left: 240px;
+
+}
+
+.section-2-div {
+    display: flex;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    color: #424242;
+}
+
+
+
+
+
+.sec-2-div1 {
+    border: 2px solid #FF900E;
+    padding-top: 45px;
+    padding-right: 36px;
+    padding-left: 35px;
+    padding-bottom: 59px;
+    text-align: justify;
+}
+
+/* -----ends here-------
+--------------------------- */
+
+.container-h3 {
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 24px;
+}
+
+.sponsor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 140px;
+}
+
+/* section ends here */
+
+
+/*-------- -------------
+   ------------- footer  starts here -------- */
+footer {
+
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 50px;
+    margin-bottom: 216px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding-top: 39px;
+    padding-bottom: 38px;
+    margin-right: 100px;
+
+
 }
