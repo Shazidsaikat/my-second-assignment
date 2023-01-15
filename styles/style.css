@@ -1,0 +1,160 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+*{margin: 0;
+  padding: 0;}
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.top{
+    background: rgba(255, 144, 14, 0.1);
+    width: 1980px;
+    height: 1232px;
+    padding-top: 50px;
+    
+}
+
+
+
+nav {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #424242;
+    margin-right: 30px;
+    font-weight: 500px;
+    font-size: 18px;
+}
+
+nav p { 
+    margin-right: 450px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-right: 500px;
+}
+/*----- banner section----- */
+.brand-title{
+    margin-top: 80px;
+}
+.brand-title, p{
+    text-align: center;
+    margin-bottom: 20px;
+
+    
+}
+ p{
+    font-weight: 400;
+    font-size: 16px;
+    
+color: #727272;
+}
+   
+button{
+    background:#FF900E;
+    border: none;
+    color:  #ffffff;
+border-radius: 8px;
+width: 131px;
+height: 43px;
+margin-top: 20px;
+margin-bottom: 50px;
+padding: 12px;
+}
+
+.brand,.brand-title img{
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+    margin-top: 50;
+     margin-left: 240px; 
+    margin-right: 240px;  
+    padding-bottom: 50px;
+}
+/* ------------
+-------feature/body section part-1----- */
+
+.section{
+    display: flex;
+    margin-left: 300px;
+    
+}
+    
+.sec-div1{
+    margin-top: 100px;
+   
+    
+}
+.sec-div2{
+    justify-content: left;
+    margin-top: 370px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.sec-div3{
+    margin-top: 20px;
+}
+.features{
+    color:  #FF900E;;
+}
+.list{
+    color: #727272;
+
+}
+.team-1, .team-2, .team-3, .team-4{
+    padding: 5px;
+}
+/*---features section start-----
+------------------------ */
+.container{
+    display: flex;
+    gap: 200px;
+   
+    
+}
+.container-div{ 
+    margin-top: 100px;
+    margin-left: 250px;
+    
+}
+.container-sub-1{
+    margin-top: 20px;
+    padding: 20px;
+    
+    
+    border-radius: 5px;
+    box-shadow: black;
+}
+.container-img{
+    margin-top: 100px;
+    
+}
+.container-p{
+    font-weight: 400;
+    font-size: 16px;
+    
+color: #727272;
+}
+   
+.btn-2{ 
+
+margin-top: 100px;
+    height: 80px;
+}
+/* features section end */
+
+/* --------------
+--------3rd/some facts section start-----
+-------------------------------------*/
+.sec2-div{
+   text-align: center;
+}
