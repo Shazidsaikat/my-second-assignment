@@ -280,4 +280,9 @@ img{
     flex-direction: column-reverse;
     margin-left: 0;
 }
+.container {
+    display: flex;
+    
+    justify-content: flex-end;
+}
 }
