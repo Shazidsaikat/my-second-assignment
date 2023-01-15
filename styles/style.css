@@ -265,7 +265,11 @@ footer {
        align-items: flex-start;
        
     }
-  .brand, .brand-title img{
-    width: 100%;
+  .brand{
+    margin-left: 0%;
   }
+  .brand-title, p {
+    text-align:left;
+    margin-bottom: 20px;
+}
 }
