@@ -285,4 +285,10 @@ img{
     
     justify-content: flex-end;
 }
+.section-2-div {
+    display: block;
+    margin-top: 120px;
+    gap: 100px;
+    color: #424242;
+}
 }
